@@ -7,7 +7,7 @@ app.use(cors());
 
 const server = require("http").createServer(app);
 const io = require("socket.io")(server, {
-  cors: { origin: "https://sockets-obuu.onrender.com" },
+  cors: { origin: "https://sockets-obuu.onrender.com:4000" },
 });
 
 const PORT = 4000 || process.env.PORT;
