@@ -1,0 +1,20 @@
+{
+  "name": "socketioserver",
+  "version": "1.0.0",
+  "description": "socketioserver",
+  "main": "app.js",
+  "scripts": {
+     "start": "node app.js"
+  },
+  "author": "en",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
