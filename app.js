@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
@@ -10,7 +9,7 @@ const io = require("socket.io")(server, {
   cors: { origin: "https://sockets-obuu.onrender.com:4000" },
 });
 
-const PORT = 4000 || process.env.PORT;
+const PORT = 4000;
 
 io.on("connection", (socket) => {
   console.log("Connected");
